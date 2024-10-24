@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.write("""
        # Simple Flower Prediction App  
        
-       This App predicts Iris flower types!
+       This App predicts **Iris flower** types!
         
     """)
     
@@ -26,7 +26,7 @@ def user_input_features():
     
     petal_length = st.sidebar.slider("Petal Length", 1.0, 6.9, 1.3)
     
-    petal_width = st.sidebar.slider("Sepal Width", 0.1, 2.5, 0.2)
+    petal_width = st.sidebar.slider("Petal Width", 0.1, 2.5, 0.2)
     
     
     data ={ 'sepal_length' : sepal_length,
